@@ -1,0 +1,25 @@
+{
+  "name": "kongzi",
+  "version": "1.0.0",
+  "description": "Course organizer for teachers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozgur235/kongzi.git"
+  },
+  "keywords": [
+    "course",
+    "teacher",
+    "education",
+    "organizer"
+  ],
+  "author": "Ozgur Akkurt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ozgur235/kongzi/issues"
+  },
+  "homepage": "https://github.com/ozgur235/kongzi#readme"
+}
