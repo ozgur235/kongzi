@@ -9,7 +9,9 @@ class App extends React.Component {
         this.props.fetchUser();
     }
     render() {
-        <h1>APP</h1>
+        return (
+            <h1>APP</h1>
+        );
     }
 }
 
