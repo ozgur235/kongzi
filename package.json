@@ -23,6 +23,10 @@
   },
   "homepage": "https://github.com/ozgur235/kongzi#readme",
   "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
     "body-parser": "^1.18.2",
     "compression": "^1.7.1",
     "connect-mongo": "^2.0.0",
@@ -30,6 +34,8 @@
     "express-session": "^1.15.6",
     "md5": "^2.2.1",
     "mongodb": "^2.2.33",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
     "webpack": "^3.8.1"
   }
 }
