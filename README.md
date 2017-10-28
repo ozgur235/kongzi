@@ -1,2 +1,2 @@
 # kongzi
-Course organizator for teachers
+Course organizer for teachers
