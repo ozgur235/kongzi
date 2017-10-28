@@ -29,6 +29,7 @@
     "express": "^4.16.2",
     "express-session": "^1.15.6",
     "md5": "^2.2.1",
-    "mongodb": "^2.2.33"
+    "mongodb": "^2.2.33",
+    "webpack": "^3.8.1"
   }
 }
