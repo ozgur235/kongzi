@@ -4,7 +4,9 @@
   "description": "Course organizer for teachers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack -p",
+    "dev": "webpack -d --watch",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,7 @@
   },
   "homepage": "https://github.com/ozgur235/kongzi#readme",
   "dependencies": {
+    "axios": "^0.17.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
@@ -34,8 +37,13 @@
     "express-session": "^1.15.6",
     "md5": "^2.2.1",
     "mongodb": "^2.2.33",
+    "nprogress": "^0.2.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
     "webpack": "^3.8.1"
   }
 }
